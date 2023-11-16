@@ -20,6 +20,8 @@ date: 2023-11-15 12:00:00 +0000
 - Name is undecided but we decided to center our features around a common theme of art.
 - Plan is to utilize 4 different types of fibonacci and 4 different sorting types. 
 - Sorts include bubble, insertion, selection, and merge.
+    - we will have some features have the option to choose the sort type since we don't want the project to have repetitive features but we want to use all sorting algorithms
+    - perhaps we will add a time box on each feature page showing the time of each sort based on the algorithm used
 
 
 ### Feature 1: Artwork Popularity
@@ -33,6 +35,13 @@ date: 2023-11-15 12:00:00 +0000
 - Can utilize the same API as feature 1 but with more columns of data or use a new API focused on the artist info. Go though the data base, find the largest number (years, age), and order in descending order based on that.
 - ![selectionsort](/assets/img/selectionsort.png){: img width="450" height="600" alt="selectionsort" }
 ![feature2design](/assets/img/feature2design.png){: img width="550" height="450" alt="feature2design"}
+
+### Feature 3: Fibonacci Art
+- this feature will incorporate the Fibonacci requirement of the project. Users will input a number which will be the "nth" value of the fibonacci sequence. We will create 4 Fibonacci algorithms using teacher code as a guide as well as inheritance in Java. The user will be able to visualize artwork being created by the 4 different fibonacci types on the frontend. We also will show the time it took to create each artwork based on the type of fibonacci algorithm used.
+- ![feature3fibonacci](/assets/img/feature3fibonacci.png){: img width="450" height="600" alt="feature3fibonacci"}
+
+
+
 
 
 
