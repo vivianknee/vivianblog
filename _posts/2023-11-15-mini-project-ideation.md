@@ -30,9 +30,10 @@ date: 2023-11-15 12:00:00 +0000
 ### Feature 2: Artist Showcase
 - Showcasing artists based on a specific criterion (e.g., alphabetical order of names, age, years in the field).
 - We plan on using Selection Sort for this. In the context of showcasing artists, Selection Sort can be used to select the artist with the desired criterion and place them in the appropriate position. This process is then repeated for the remaining artists. Selection Sort is straightforward and can be suitable for smaller artist showcases, providing a clear and organized display for visitors.
-![selectionsort](/assets/img/selectionsort.png){: img width="450" height="600" alt="selectionsort"}
-- Go though the data base, find the largest number (years, age), and order in descending order based on that.
-- Can utilize the same API as feature 1 but with more columns of data or use a new API focused on the artist info
+- Can utilize the same API as feature 1 but with more columns of data or use a new API focused on the artist info. Go though the data base, find the largest number (years, age), and order in descending order based on that.
+- ![selectionsort](/assets/img/selectionsort.png){: img width="450" height="600" alt="selectionsort" }
+![feature2design](/assets/img/feature2design.png){: img width="550" height="450" alt="feature2design"}
+
 
 
 
