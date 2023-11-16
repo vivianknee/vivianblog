@@ -1,7 +1,7 @@
 #!/bin/bash
 
 port=4200
-repo_name=davidblog
+repo_name=vivianblog
 log_file="/tmp/jekyll${port}.log"
 # Exceptions will stop make
 shell="/bin/bash"
