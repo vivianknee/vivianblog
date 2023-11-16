@@ -23,6 +23,7 @@ date: 2023-11-15 12:00:00 +0000
 - **Plan for abstraction and inheritance**
     - we will have some features have the option to choose the sort type since we don't want the project to have repetitive features but we want to use all sorting algorithms
     - perhaps we will add a time box on each feature page showing the time of each sort based on the algorithm used
+    - there will be a main sorting class and sub classes within that extend the from the main class. 
 
 
 ### Feature 1: Artwork Popularity
