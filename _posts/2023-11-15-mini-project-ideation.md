@@ -20,6 +20,7 @@ date: 2023-11-15 12:00:00 +0000
 - Name is undecided but we decided to center our features around a common theme of art.
 - Plan is to utilize 4 different types of fibonacci and 4 different sorting types. 
 - Sorts include bubble, insertion, selection, and merge.
+- **Plan for abstraction and inheritance**
     - we will have some features have the option to choose the sort type since we don't want the project to have repetitive features but we want to use all sorting algorithms
     - perhaps we will add a time box on each feature page showing the time of each sort based on the algorithm used
 
