@@ -1,7 +1,7 @@
 ---
 title: Unit 1 Lesson
 categories: ['Lesson']
-tags: ['Lessons', 'Java']
+tags: ['java', 'lesson']
 type: hacks
 week: 7
 author: Vivian
