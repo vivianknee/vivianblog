@@ -26,6 +26,60 @@ date: 2023-11-15 12:00:00 +0000
     - there will be a main sorting class and sub classes within that extend the from the main class. 
 ![abstraction](/assets/img/abstraction.png){: img width="600" height="600" alt="abstraction"}
 
+- a merge sort function that Kevin made, its just a starter function for now, we will make changes as we start involving our abstraction/inheritance plans
+
+```
+public class MergeSort {
+    public void mergeSort(int[] arr) {
+        if (arr == null || arr.length <= 1) {
+            return;
+        }
+        int n = arr.length;
+        int[] temp = new int[n];
+        mergeSortHelper(arr, temp, 0, n - 1);
+    }
+    private void mergeSortHelper(int[] arr, int[] temp, int left, int right) {
+        if (left < right) {
+            int mid = left + (right - left) / 2;
+            mergeSortHelper(arr, temp, left, mid);
+            mergeSortHelper(arr, temp, mid + 1, right);
+            merge(arr, temp, left, mid, right);
+        }
+    }
+    private void merge(int[] arr, int[] temp, int left, int mid, int right) {
+        for (int i = left; i <= right; i++) {
+            temp[i] = arr[i];
+        }
+        int i = left;
+        int j = mid + 1;
+        int k = left;
+        while (i <= mid && j <= right) {
+            if (temp[i] <= temp[j]) {
+                arr[k] = temp[i];
+                i++;
+            } else {
+                arr[k] = temp[j];
+                j++;
+            }
+            k++;
+        }
+        while (i <= mid) {
+            arr[k] = temp[i];
+            i++;
+            k++;
+        }
+    }
+    public static void main(String[] args) {
+        int[] arr = {12, 11, 13, 5, 6, 7};
+        MergeSort mergeSort = new MergeSort();
+        mergeSort.mergeSort(arr);
+        System.out.println("Sorted array:");
+        for (int num : arr) {
+            System.out.print(num + " ");
+        }
+    }
+}
+```
 
 ### Feature 1: Artwork Popularity
 - A dynamic and engaging art platform where users can actively change the gallery with a personal vote. This feature will incorporate a "Like/Dislike" system for each art piece, providing visitors with the power to influence the popularity of artworks on the page. As users interact with the collection, their votes contribute get sent to the backend sorting algorithm that recalibrates the display order, showcasing the most liked pieces at the forefront while pushing less favored works to the bottom. This creates a dynamic digital gallery experience that reflects the tastes and preferences of its audience.
