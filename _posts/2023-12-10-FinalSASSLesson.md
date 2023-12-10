@@ -95,9 +95,7 @@ These visual concepts also play a role in planning the **responsive** design. Th
 **Explore SASS documentation to discover any additional features not covered in the lesson and implement one or more of these features in your GH Pages project. Write a couple sentences explaining the feature and demonstrate it.**
 - Keyframes (@keyframes): In SCSS, you can define a set of keyframes named rotate. These keyframes specify the rotation transformation from 0 degrees to 360 degrees.
 
-<img src="assets/img/sass.gif"/>
-
-
+![sass](/assets/img/sass.gif)
 
 ## Partials and Modular Styling with SASS
 
@@ -502,9 +500,11 @@ $max-columns: 5;
 ```
 
 - large screen:
-<img src="assets/img/hack1.png" alt="hack1">
+![hack1](/assets/img/hack1.png)
+
 - small screen:
-<img src="assets/img/hack11.png" alt="hack1b">
+![hack11](/assets/img/hack11.png)
+
 
 # Scripting in SASS
 
@@ -746,7 +746,7 @@ $base-color: #3498db;
 </html>
 ```
 
-<img src="assets/img/hack2.png" alt="hack2">
+![hack2](/assets/img/hack2.png)
 
 # Extending & Inheritance
 
@@ -856,19 +856,19 @@ In this example, the @debug statement will print a message to the console during
 ## Popcorn Hacks
 ### Popcorn Hack 1:
 Try changing the primary color to an invalid value (e.g., 'red') and observe the @error message. Then, correct it to a valid color.
-
-<img src="assets/img/popcornhack1.png" alt="popcornhack1">
+![popcornhack1](/assets/img/popcornhack1.png)
 - changed it to a hex code for yellow right after
 
 ### Popcorn Hack 2:
 Modify the base font size and observe the @debug message. Try different font sizes and see how it affects the calculated line height.
-<img src="assets/img/popcornhack2.png" alt="popcornhack2">
+![popcornhack2](/assets/img/popcornhack2.png)
 
 - line height of 100
-<img src="assets/img/100.png" alt="100">
+![100](/assets/img/100.png)
 
 - line height of 10
-<img src="assets/img/10.png" alt="10">
+![10](/assets/img/10.png)
+
 
 
 # Hacks
