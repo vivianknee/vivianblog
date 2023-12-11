@@ -160,14 +160,12 @@ popcorn hack: talk about usage of one of four elements of CRUD from your project
     renderData(newData);
   });
 
-  $('#data-table').on('click', '.update-btn', function() {
-    const idToEdit = $(this).data('id');
+$('#data-table').on('click', '.update-btn', function() {const idToEdit = $(this).data('id');
     const updateIndex = initialData.findIndex(item => item.id === idToEdit);
-
-    // HACKS HACKS HACKS HACKS HACKS HACKS HACKS HACKS HACKS HACKS HACKS HACKS HACKS HACKS HACKS HACKS HACKS HACKS HACKS HACKS HACKS HACKS HACKS HACKS HACKS HACKS HACKS 
-
-    // FINISH THIS PART
-    // UPDATE
+    const updateName = prompt('Enter a new name:');
+    const updateEmail = prompt('Enter a new email:');
+    currentData[updateIndex] = {id: idToEdit, name: updateName, email: updateEmail};
+    renderData(currentData);
   });
 
 
