@@ -761,6 +761,10 @@ implementation
     - An actor can star in multiple movies.
     - A movie can feature multiple actors.
 ![data](/assets/img/database.png)
+![jointables](/assets/img/jointables.png)
+![code](/assets/img/code.png)
+
+
 
 ### Ideas for 1.0/1.0
 
