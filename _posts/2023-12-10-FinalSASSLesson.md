@@ -431,7 +431,7 @@ $padding: 10px
 Create a grid layout that automatically adjusts the number of columns based on the screen size, using SASS variables and functions.
 
 
-```python
+```java
 /*css*/ 
 .grid-item {
     border: 1px solid #333;
@@ -478,7 +478,7 @@ $max-columns: 5;
 ```
 
 
-```python
+```java
 <html>
 <body>
   <div> 
@@ -679,7 +679,7 @@ Define a custom SASS function that uses a for loop in order to slightly decrease
 ![pixil-frame-0 (1)](https://github.com/Ant11234/student/assets/40652645/509214d6-bf1a-40f7-9028-cfd4b9f212da)
 
 
-```python
+```java
 body {
   display: flex;
   justify-content: center;
@@ -719,7 +719,7 @@ $base-color: #3498db;
 ```
 
 
-```python
+```java
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -794,7 +794,7 @@ $primary-color: #3498db; // Change this to an invalid color, e.g., 'red'
 ```
 
 
-```python
+```java
 %%html
 <div style="background-color: #3498db; padding: 20px;">
   <p style="color: #fff;">This is an example element with a primary color background.</p>
@@ -832,7 +832,7 @@ body {
 ```
 
 
-```python
+```java
 %%html
 <style>
   body {
