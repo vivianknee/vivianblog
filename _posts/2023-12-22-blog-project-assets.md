@@ -14,12 +14,12 @@ date: 2024-1-11 12:00:00 +0000
 ## Purpose
 Your Pocket Therapist uses an AI Face algorithm to accurately understand the user's emotions and provide advice/quotes in response.
 
-## Project Objectives
-1. Create a user-friendly interface
-2. Create a live emotion detector, if make it so photos can be uploaded
-3. Utilize a Face API to detect images and output emotions
-4. Create our own unique database of advice and quotes that correspond to the emotions
-5. Focus on JS for the frontend and Java for the backend
+## Assets
+- user-friendly interface
+- live emotion detector with a Face API to detect and output emotions
+- unique database of advice and quotes that correspond to the emotions
+- Add you own quotes page
+- Gallery to view everyones' quotes
 
 ## Key Commits
 - Creating QuoteGeneration.java [commit](https://github.com/vivianknee/PT_Backend/commit/325638045a69756b6baa685da06d20727d192fbc)
@@ -37,6 +37,11 @@ Your Pocket Therapist uses an AI Face algorithm to accurately understand the use
 
 ## Purpose
 This project was the sorting project we did over the course of 3 weeks. This project utilizes sorting and Fibonacci to create an art gallery that can be sorted by popularity. Users visiting the site can interact with the art pieces, choose their favorite, and like it. They can then sort the arts by likes and see a visualization of the sort, the number of steps it takes to sort, and the total time in NS. The Fibonacci portion of the project allows the user to input a number (nth term) and a piece of art is created based on it.
+
+## Assets
+- sorting art gallery
+- animation of sorting
+- fibonacci art generator with fibonacci sorts
 
 ## Key Commits
 <ol><li>[Added time methods to sorting class](https://github.com/vivianknee/AVK_Backend/commit/f82b4a9c9b86d82eba6b60b7dd17e6cc0a011e7a)</li><li>[Finishing Art and Sorting APIS, setup @Override annotation for sorting algorithtim files](https://github.com/vivianknee/AVK_Backend/commit/44c3839250d90aa3e8ab0062fe283f14fdb5eb6f)</li><li>[added sortingsteps to Sorting class](https://github.com/vivianknee/AVK_Backend/commit/ee1e0eaac98e2ce2226f8575d96e4f10182b1177)</li><li>[GET request on fronted, JS art piece display formatting](https://github.com/vivianknee/tri2miniProject/commit/908cec11bd45169bbc4858ad667101ae85e0c574)</li><li>[POST request on frontend for likes and sorting methods](https://github.com/vivianknee/tri2miniProject/commit/f1d59657508da8730e87c0b9219d0eb7f6ca78ee)</li><li>[Sorting animations](https://github.com/vivianknee/tri2miniProject/commit/f3f5ff8241e20e65b419a21f5f0ff964f4f32b01)</li></ol>
