@@ -44,7 +44,12 @@ This project was the sorting project we did over the course of 3 weeks. This pro
 - fibonacci art generator with fibonacci sorts
 
 ## Key Commits
-<ol><li>[Added time methods to sorting class](https://github.com/vivianknee/AVK_Backend/commit/f82b4a9c9b86d82eba6b60b7dd17e6cc0a011e7a)</li><li>[Finishing Art and Sorting APIS, setup @Override annotation for sorting algorithtim files](https://github.com/vivianknee/AVK_Backend/commit/44c3839250d90aa3e8ab0062fe283f14fdb5eb6f)</li><li>[added sortingsteps to Sorting class](https://github.com/vivianknee/AVK_Backend/commit/ee1e0eaac98e2ce2226f8575d96e4f10182b1177)</li><li>[GET request on fronted, JS art piece display formatting](https://github.com/vivianknee/tri2miniProject/commit/908cec11bd45169bbc4858ad667101ae85e0c574)</li><li>[POST request on frontend for likes and sorting methods](https://github.com/vivianknee/tri2miniProject/commit/f1d59657508da8730e87c0b9219d0eb7f6ca78ee)</li><li>[Sorting animations](https://github.com/vivianknee/tri2miniProject/commit/f3f5ff8241e20e65b419a21f5f0ff964f4f32b01)</li></ol>
+- [Added time methods to sorting class](https://github.com/vivianknee/AVK_Backend/commit/f82b4a9c9b86d82eba6b60b7dd17e6cc0a011e7a)
+- [Finishing Art and Sorting APIS, setup @Override annotation for sorting algorithtim files](https://github.com/vivianknee/AVK_Backend/commit/44c3839250d90aa3e8ab0062fe283f14fdb5eb6f)
+- [added sortingsteps to Sorting class](https://github.com/vivianknee/AVK_Backend/commit/ee1e0eaac98e2ce2226f8575d96e4f10182b1177)
+- [GET request on fronted, JS art piece display formatting](https://github.com/vivianknee/tri2miniProject/commit/908cec11bd45169bbc4858ad667101ae85e0c574)
+- [POST request on frontend for likes and sorting methods](https://github.com/vivianknee/tri2miniProject/commit/f1d59657508da8730e87c0b9219d0eb7f6ca78ee)
+- [Sorting animations](https://github.com/vivianknee/tri2miniProject/commit/f3f5ff8241e20e65b419a21f5f0ff964f4f32b01) 
 
 ## Implementation
 - js frontend design
