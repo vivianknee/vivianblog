@@ -385,15 +385,6 @@ public abstract class Collectable implements Comparable <Collectable> {
 		return this.toString().compareTo(obj.toString());
 	}
 
-    public static void deleteData(Collectable[] objs, String key) {
-        objs.remove(key);
-        if (objs == null) {
-            System.out.println(key + " not found");
-        } else {
-            System.out.println("Removed: " + key);
-        }
-    }
-
 	// static print method used by extended classes
 	public static void print(Collectable[] objs) {
 		// print 'Object' properties
@@ -467,10 +458,20 @@ public class Garage {
         }
     }
 
+    //hack
+    public void deleteCar(String key) {
+        Car removedCar = garage.remove(key);
+        if (removedCar == null) {
+            System.out.println(key + " not found in the garage.");
+        } else {
+            System.out.println("Removed car: " + removedCar);
+        }
+    }
+
     public static void main(String[] args) {
         Garage myGarage = new Garage();
         myGarage.printGarage();
-        deleteData(garage, "Lambo");
+        
 
         // Removing a car from the garage tester code
         // String key = "Lambo";
@@ -480,11 +481,20 @@ public class Garage {
         // } else {
         //     System.out.println("Removed: " + key + ", " + car);
         // }
+        String key = "Lambo";
+        myGarage.deleteCar(key);
     }
 }
 
 Garage.main(null);
 ```
+
+    Ferrari: 2021 Ferrari F8 Tributo
+    Porsche: 2021 Porsche 911 Turbo S
+    Lambo: 2021 Lamborghini Aventador
+    McLaren: 2021 McLaren 720S
+    Removed car: 2021 Lamborghini Aventador
+
 
 # HACKS (you should be able to do with chatgpt)
 
