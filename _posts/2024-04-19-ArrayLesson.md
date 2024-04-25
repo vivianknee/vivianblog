@@ -335,8 +335,18 @@ arraySum(arr1);
 
 
 ```java
-/** Returns a one-dimensional array in which the entry at index k is the sum of * the entries of row k of the two-dimensional array arr2D. */ 
-public static int[] rowSums(int[][] arr2D)
+/** Returns a one-dimensional array in which the entry at index k is the sum of * the entries of row k of the two-dimensional array arr2D. */
+public static int[] rowSums(int[][] arr2D){
+    int[] rowSums = new int[4];
+    int rowNum = 0;
+    //only need to iterate through the row since ur summing the rows. use method from part a
+    for (int i = 0; i < arr2D.length; i++){
+        rowSums[rowNum] = arraySum(row);
+        rowNum++;
+    }
+
+    return rowSums;
+}
 ```
 
 ![image](https://github.com/AniCricKet/musical-guacamole/assets/91163802/40654587-a7af-4918-ab01-5000ba097a9b)
@@ -345,6 +355,18 @@ public static int[] rowSums(int[][] arr2D)
 
 
 ```java
-/** Returns true if all rows in arr2D have different row sums; * false otherwise. */ 
-public static boolean isDiverse(int[][] arr2D)
+/** Returns true if all rows in arr2D have different row sums; * false otherwise. */
+public static boolean isDiverse(int[][] arr2D) {
+    int[] sums = rowSums(arr2D);
+    //iterate through each element
+    for(int i = 0; i < sums.length; i++){
+        //compares to the remaining in the array
+        for (int j = i+1; j < sums.length; j++){
+            if (sums[i] == sums[i+1]){
+                return false;
+            }
+        }
+    }
+    return true;
+}
 ```

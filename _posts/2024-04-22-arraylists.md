@@ -1,6 +1,6 @@
 ---
 toc: True
-title: Unit 7 Lesson
+title: Unit 7 Lesson - ArrayLists
 description: ArrayList Lesson STUDENT STUDENT
 type: hacks
 week: 30
@@ -349,7 +349,8 @@ HackHelper.main(null);
 ```
 
     the first element is: 1 and the last element is: 8
-    Added Items: 1, 2, 4, 5, 8Size: 5
+    Added Items: 1, 2, 4, 5, 8
+    Size: 5
     Replaced Item: 5
     Removed Item: 2
     
