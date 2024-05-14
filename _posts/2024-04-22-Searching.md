@@ -545,3 +545,97 @@ for(int i = 0; i < 20; i++) {
 ### Answer:
 
 since the for loop iterates 19 times, all you have to do is determine how many times an index from 0-19 has a remainder equal to a value in the array. The remainders of the numbers 0-19 repeats in the pattern 0123 0123 0123 meaning the value in the array is equal to the remainder of the index at index 1,3,5,7,9,11,13,15,17,19 meaning it will print "indubitably" 10 times.
+
+
+```java
+public static void scrambleOrRemove(List<String> wordList) {
+
+    for (int i=0; i < wordList.size(); i++){
+        String word = wordList.get(i);
+        String scramble = scrambleWord(word);
+        if (scramble.equals(word)){
+            wordList.remove(scramble);
+        }
+        else {
+            wordList.set(i, scramble);
+        }
+    }
+}
+
+public static void scrambleOrRemove(List<String> wordList){
+    int index = 0
+    while (index < wordList.size()){
+        String word = wordList.get(index);
+        String scramble = scrambleWord(word);
+        if (word.equals(scramble)){
+            wordList.remove(index);
+        }
+        else {
+            wordList.set(index, scrambled)
+            index++
+        }
+    }
+}
+
+```
+
+
+```java
+public class Director extends Rock{
+    public Director() {
+        super(Color.RED);
+    }
+
+    public void act() {
+        if (getColor().equals(Color.GREEN)){
+            ArrayList<Actor> neighbors = getGrid().getNeighbors(getLocation());
+            for (Actor actor : neighbors) {
+                actor.setDirections (actor.getDirection() + Location.RIGHT);
+            }
+            set(Color.RED);
+        }
+        else {
+            setColor(Color.Green);
+        }
+    }
+
+}
+```
+
+
+```java
+public class Review {
+    private int rating;
+    private String comment;
+
+    public Review(int r, String c){
+        rating = r;
+        comment = c;
+    }
+
+    public int getRating(){
+        return rating;
+    }
+}
+
+public class ReviewAnalysis {
+
+    private Review[] allReviews;
+
+    public double getAverageRating() {
+        int sum = 0;
+        if (allReviews.length > 0) {
+            for (int i = 0; i < allReviews.length; i++){
+                sum =+ allReviews[i].getRating();
+            }
+        }
+        return (double) sum / allReviews.length;
+    }
+    
+    public static void main(String[] args) {
+        Review myReview = new Review();
+        
+    }
+
+}
+```
